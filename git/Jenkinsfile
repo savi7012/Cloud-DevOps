@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'curl -uAdmin:Admin@123 -T /var/jenkins_home/workspace/Python-Project/git/main.py "http://localhost:8081/artifactory/python-exe-1/main.py"'
+                sh 'curl -uAdmin:Admin@123 -T /var/jenkins_home/workspace/Python-Project/git/main.py "http://localhost:8082/artifactory/python-exe-1/main.py"'
             }
         }
         
